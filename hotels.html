@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sedona</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="normalize.css">
+		<link rel="stylesheet" href="main.css">
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<div class="layout-center-wrapper .clear">
+			<header>
+				<div class="clear layout-center-wrapper">
+				   <div class="top-menu clear">
+						<ul class="top-menu">
+						<li><a href="index.html">Информация</a></li>
+						<li><a href="#">Фото и видео</a></li>
+						<li><a href="index.html"><div class="logo"></div></a></li>
+						<li><a href="#">Карта штата</a></li>
+						<li><a href="hotels.html">Гостиницы</a></li>
+						</ul>
+				   </div>
+				</div>
+			</header>
+
+			<main>
+			   <div class="hotels">
+				<div class="filter-hotels">
+					<div class="filter-hotels-infrastructure">
+						<h2>Инфраструктура:</h2>
+						<ul>
+							<li><input type="checkbox" name="" id="check_1" checked><label for="check_1">Бассейн</label></li>
+							<li><input type="checkbox" name="" id="check_2"><label for="check_2">Парковка</label></li>
+							<li><input type="checkbox" name="" id="check_3"><label for="check_3">WI-FI</label></li>
+						</ul>
+					</div>
+					<div class="filter-hotels-housing-type">
+						<h2>Тип жилья:</h2>
+						<ul>
+							<li><input type="checkbox" name="" id="check_4" checked><label for="check_4">Гостиница</label></li>
+						   <li><input type="checkbox" name="" id="check_5" checked><label for="check_5">Мотель</label></li>
+							<li><input type="checkbox" name="" id="check_6" checked><label for="check_6">Апартаменты</label></li>
+						</ul>
+					</div>
+					<div class="filter-hotels-complex">
+						<h2>Стоимость в сутки (Р):</h2>
+						<div class="price-control">
+							<span class="conteiner-min-price">
+								от <input class="min-price" type="text" value="0">
+							</span>
+							<span class="conteiner-max-price">
+								до <input class="max-price" type="text" value="15000">
+							</span>
+						</div>
+						<div class="range-container">
+							<div class="range-control slider slider-horizontal widget widget-content corner-all" aria-disabled="false">
+							  <div class="slider-range widget-header ucorner-all" style="left: 0%; width: 59.745%;"></div>
+							  <a class="slider-handle state-default corner-all" href="#" style="left: 0%;"></a>
+							  <a class="slider-handle state-default corner-all" href="#" style="left: 59.745%;"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="search-result">
+					<div class="search-result-menu clear">
+						<ul class="search-result-filter clear">
+							<li><span>Найдено:3</span></li>
+							<li><span>Сортировка:</span></li>
+							<li><a  class="active" href="#">По цене</a></li>
+							<li><a href="#">По типу</a></li>
+							<li><a href="#">По рейтингу</a></li>
+							<li class="search-result-filter-arrows clear">
+								<a href="#" class="search-filter-arrow-up"></a>
+								<a href="#" class="search-filter-arrow-down active-arrow"></a>
+							</li>
+						</ul>
+					</div>
+					<div class="search-result-items">
+						<div class="search-result-item clear">
+							<div class="search-result-item-img"><img src="images/item_image_1.jpg" alt=""></div>
+							<div class="search-result-item-info">
+								<h3>Amara resort & spa</h3>
+								<span>гостиница</span><span>от 3500 Р.</span>
+								<br>
+								<a class="more" href="#">Подробнее</a>
+								<a class="reservation" href="#">Забронировать</a>
+							</div>
+							<div class="search-result-item-rating">
+								<div class="search-result-item-rating-stars clear">
+									<img src="images/star_icon.png">
+									<img src="images/star_icon.png">
+									<img src="images/star_icon.png">
+									<img src="images/star_icon.png">
+								</div>
+								<div class="search-result-item-rating-value">рейтинг: 8,5</div>
+							</div>
+						</div>
+						<div class="search-result-item clear">
+							<div class="search-result-item-img"><img src="images/item_image_2.jpg" alt=""></div>
+							<div class="search-result-item-info">
+								<h3>Desert quail inn</h3>
+								<span>мотель</span><span>от 2000 Р.</span>
+								<br>
+								<a class="more" href="#">Подробнее</a>
+								<a class="reservation" href="#">Забронировать</a>
+							</div>
+							<div class="search-result-item-rating">
+								<div class="search-result-item-rating-stars clear">
+									<img src="images/star_icon.png">
+									<img src="images/star_icon.png">
+								</div>
+								<div class="search-result-item-rating-value">рейтинг: 8,9</div>
+							</div>
+						</div>
+						<div class="search-result-item clear">
+							<div class="search-result-item-img"><img src="images/item_image_3.jpg" alt=""></div>
+							<div class="search-result-item-info">
+								<h3>Villas at poco diablo</h3>
+								<span>апартаменты</span><span>от 4000 Р.</span>
+								<br>
+								<a class="more" href="#">Подробнее</a>
+								<a class="reservation" href="#">Забронировать</a>
+							</div>
+							<div class="search-result-item-rating">
+								<div class="search-result-item-rating-stars clear">
+									<img src="images/star_icon.png">
+									<img src="images/star_icon.png">
+									<img src="images/star_icon.png">
+								</div>
+								<div class="search-result-item-rating-value">рейтинг: 9,2</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			 </div>
+
+			</main>
+
+			<footer>
+				<div class="visit footer-block">
+					<a href="#">#visitsedona</a>
+				</div>
+				<div class="social footer-block">
+					<a class="social-block social-twitter" href="#"></a>
+					<a class="social-block social-facebook" href="#"></a>
+					<a class="social-block social-youtube" href="#"></a>
+				</div>
+				<div class="copyright footer-block">
+					<a class="website" href="http://htmlacademy.ru/">website by</a>
+					<a class="for" href="http://glukhanko.ru/">for</a>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

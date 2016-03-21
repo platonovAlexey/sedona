@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+		<head>
+				<title>Sedona</title>
+				<meta charset="UTF-8">
+				<link rel="stylesheet" href="normalize.css">
+				<link rel="stylesheet" href="main.css">
+				<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+				<script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+		</head>
+		<body>
+			<div class="layout-center-wrapper">
+				<header>
+					<div class="top-menu clear">
+						<ul class="top-menu">
+										<li><a href="#">Информация</a></li>
+										<li><a href="#">Фото и видео</a></li>
+										<li><div class="logo"></div></li>
+										<li><a href="#">Карта штата</a></li>
+										<li><a href="hotels.html">Гостиницы</a></li>
+								</ul>
+					</div>
+				</header>
+				<main>
+					<div class="intro">
+			<p class="promo-caption">Welcome</p>
+			<p class="promo-caption-subtittle">to the gorgeous</p>
+			<h1 class="promo-tittle">Sedona</h1>
+			<p class="promo-sucks">"Because the grand canyon sucks"</p>
+			<div class="promo-decor"></div>
+		</div>
+				<div class="title">
+						<h1>Седона - неольшой городок в Аризоне,<br> заслуживающий большего!</h1>
+						<p>Рассмотрим 5 причин, по которым Седона круче чем Гранд каньон!</p>
+				</div>
+					<div class="reasons reasons-left clear">
+						<div class="reasons-text">
+							<h2>Настоящий <br>городок</h2>
+						<p class="benefit-number">№ 1</p>
+						<p>Седона не атракцион для туристов, там течет своя жизнь</p>
+						</div>
+					</div>
+					<div class="line-reasons clear">
+						<div class="reasons-item">
+							<img src="images/home_icon.png" alt="жильё">
+							<h2>Жилье</h2>
+							<p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+						</div>
+						<div class="reasons-item">
+							<img src="images/burger_icon.png" alt="еда">
+							<h2>Еда</h2>
+							<p>Всегда заказывай фирменный бургер, вы не разочаруетесь!</p>
+						</div>
+						<div class="reasons-item">
+							<img src="images/present_icon.png" alt="сувениры">
+							<h2>Сувениры</h2>
+							<p>Не только китайского,<br> но и местного производства!</p>
+						</div>
+					</div>
+					<div class="reasons reasons-right clear">
+						<div class="reasons-text">
+							<h2>Там есть<br>Мост дьявола</h2>
+							<p class="benefit-number">№2</p>
+							<p>Да, по нему можно пройти!<br> Если конечно вы осмелитесь</p>
+						</div>
+					</div>
+					<div class="line-reasons line-2" >
+						<div class="reasons-item">
+							<h2>Небольшая<br> площадь</h2>
+							<span>-№3-</span>
+							<p>Все достопримечательности находятся очень близко</p>
+						</div>
+						<div class="reasons-item">
+							<h2>Красивая<br> дорога</h2>
+							<span>-№4-</span>
+							<p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+						</div>
+						<div class="reasons-item">
+							<h2>Мало<br> туристов</h2>
+							<span>-№5-</span>
+							<p>Большинство едет в Гранд-каньен и толпится там</p>
+						</div>
+					</div>
+					<div class="interested">
+						<h2><a class="popup-menu-enter" href="#">Заинтересовались?</a></h2>
+						<span class="interested-text">Укажите предполагаемые даты поездки<br> и мы покажем вам лучшие предложения гостиниц в седоне</span>
+					</div>
+					<div id="map"></div>
+					<div class="conteiner-popup">
+						<div class="popup">
+							<div class="search">
+								<h2>Поиск гостиницы в Седоне</h2>
+								<a href="#" class="popup-close"></a>
+							</div>
+							<form id="filter" action=":">
+								<label class="popup-date clear">
+									<span>Дата заезда:</span>
+									<input type="text" value="24 сентября 2014"/>
+									<a href="#" class="popup-people-calendar"></a>
+								</label>
+								<label class="popup-date clear">
+									<span>Дата выезда:</span>
+									<input type="text" value="1 октября 2014"/>
+									<a href="#" class="popup-people-calendar"></a>
+								</label>
+								<label class="popup-people adults">
+									<span>Взрослые:</span>
+									<a href="#" class="popup-people-plus"></a>
+									<input type="text" value="2"/>
+									<a href="#" class="popup-people-minus"></a>
+								</label>
+								<label class="popup-people children">
+									<span>Дети:</span>
+									<a href="#" class="popup-people-plus"></a>
+									<input type="text" value="0"/>
+									<a href="#" class="popup-people-minus"></a>
+								</label>
+								<input type="submit" value="Найти">
+							</form>
+						</div>
+					</div>
+				</main>
+				<footer>
+					<div class="footer-conteiner">
+						<div class="visit footer-block">
+								<a href="#">#visitsedona</a>
+							</div>
+						<div class="social footer-block">
+							<a class="social-block social-twitter" href="#"></a>
+							<a class="social-block social-facebook" href="#"></a>
+							<a class="social-block social-youtube" href="#"></a>
+					</div>
+						<div class="copyright footer-block">
+										<a class="website" href="#">website by</a>
+										<a class="for" href="#">for</a>
+						</div>
+				 </div>
+				</footer>
+			</div>
+		</body>
+<script type="text/javascript">
+		// Яндекс карта
+		var myMap;
+
+				ymaps.ready(init);
+
+				function init () {
+						// Создание экземпляра карты и его привязка к контейнеру с
+						// заданным id ("map").
+						myMap = new ymaps.Map('map', {
+								// При инициализации карты обязательно нужно указать
+								// её центр и коэффициент масштабирования.
+								center: [34.865989, -111.764013], // Москва
+								zoom: 12
+						});
+
+						myMap.behaviors.disable('scrollZoom');
+				// отмена масштабируемости карты колесиком мыши
+				}
+
+		// Форма обратной связи
+		var link = document.querySelector(".popup-menu-enter");
+		var popup = document.querySelector(".popup");
+		var close = document.querySelector(".popup-close");
+
+		link.addEventListener("click", function(event) {
+			event.preventDefault();
+
+			console.log("клик по ссылке");
+			popup.classList.add("popup-show");
+		}, false);
+
+		close.addEventListener("click", function(event) {
+			event.preventDefault();
+			popup.classList.remove("popup-show");
+		}, false);
+
+		</script>
+</html>
